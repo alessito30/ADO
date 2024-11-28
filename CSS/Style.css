@@ -1,0 +1,301 @@
+:root{
+    --c1:#10002b;
+    --c2:#240046;
+    --c3:#3c096c;
+    --c4:#5a189a;
+    --c5:#7b2cbf;
+    --c6:#9d4edd;
+    --c7:#c77dff;
+    --c8:#e0aaff;
+}
+html {
+    font-size: 62.5%;
+    color: var(--c8);
+}
+a{
+    text-decoration: none;
+    color: var(--c4);
+}
+*{margin:0px;}
+body {
+    background-color: var(--c1);
+    font-size:16px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-color: var(--c2);
+    color:var(--c5);
+    width: 90%;
+    margin: 0px 5%;
+    border-radius: 5px 5px 0px 0px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: var(--c4);
+    color: var(--c1);
+    width: 90%;
+    margin: 0px 5% 10px;
+    border-radius: 0px 0px 50px 50px;
+}
+nav p{
+    margin: auto 50px;
+}
+.utaime{
+    margin-left: 7%;
+    width: 86%;
+    color: var(--c7);
+}
+span #abrir{
+    margin-top: 40px;
+    grid-column: 1/4;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--c7);
+}
+#listas > p {
+    margin: 0px;
+}
+.vv{
+    background-color: #4e9bffa5;
+}
+.uu{
+    background-color: #00ffffa5;
+}
+.cc{
+    background-color: #b2ffffa5;
+    color: var(--c8);
+    text-decoration: none;
+}
+#listas > .v1 {
+    color: var(--c4);
+    border-width: 0.1rem 0,2rem 0.1rem 0,2rem;
+    border: solid rgb(33, 6, 58);
+    grid-row: 1;
+    grid-column: 2;
+}
+#listas > .u1 {
+    border-width: 0.1rem 0.1rem 0.1rem 0.1rem;
+    border: solid rgb(33, 6, 58);
+    grid-row: 1;
+    grid-column: 3;
+    color: var(--c4);
+}
+#listas > .c1 {
+    border-width: 0,2rem 0.1rem 0.1rem 0,2rem;
+    border: solid rgb(33, 6, 58);
+    grid-row: 1;
+    grid-column: 4;
+    color: var(--c4);
+}
+#listas > .v2 {
+    border-width: 0.1rem 0.1rem 0.1rem 0,2rem;
+    border: solid rgb(33, 6, 58);
+    grid-row: 2;
+    grid-column: 2;
+}
+#listas > .u2 {
+    border-width: 0.1rem 0.1rem 0.1rem 0.1rem;
+    border: solid rgb(33, 6, 58);
+    grid-row: 2;
+    grid-column: 3;
+}
+#listas > .c2 {
+    border-width: 0.1rem 0.1rem 0.1rem 0,2rem;
+    border: solid rgb(33, 6, 58);
+    grid-row: 2;
+    grid-column: 4;
+}
+#listas > .v3 {
+    
+    border-width: 0.1rem 0,2rem 0.1rem 0.1rem;
+    border: solid rgb(33, 6, 58);
+    grid-row: 3;
+    grid-column: 2;
+}
+#listas > .u3 {
+    border-width: 0.1rem 0.1rem 0.1rem 0.1rem;
+    border: solid rgb(33, 6, 58);
+    grid-row: 3;
+    grid-column: 3;
+}
+#listas > .c3 {
+    border-width: 0.1rem 0.1rem 0.1rem 0,2rem;
+    border: solid rgb(33, 6, 58);
+    grid-row: 3;
+    grid-column: 4;
+}
+#listas > .v4 {
+    
+    border-width: 0.1rem 0,2rem 0.1rem 0.1rem;
+    border: solid rgb(33, 6, 58);
+    grid-row: 4;
+    grid-column: 2;
+}
+#listas > .u4 {
+    border-width: 0.1rem 0.1rem 0.1rem 0.1rem;
+    border: solid rgb(33, 6, 58);
+    grid-row: 4;
+    grid-column: 3;
+}
+#listas > .c4 {
+    border-width: 0.1rem 0.1rem 0.1rem 0,2rem;
+    border: solid rgb(33, 6, 58);
+    grid-row: 4;
+    grid-column: 4;
+}
+#listas > .v5 {
+    
+    border-width: 0.1rem 0,2rem 0.1rem 0.1rem;
+    border: solid rgb(33, 6, 58);
+    grid-row: 5;
+    grid-column: 2;
+}
+#listas > .u5 {
+    border-width: 0.1rem 0.1rem 0.1rem 0.1rem;
+    border: solid rgb(33, 6, 58);
+    grid-row: 5;
+    grid-column: 3;
+}
+#listas > .c5 {
+    border-width: 0.1rem 0.1rem 0.1rem 0,2rem;
+    border: solid rgb(33, 6, 58);
+    grid-row: 5;
+    grid-column: 4;
+}
+#listas > .v6 {
+    
+    border-width: 0.1rem 0,2rem 0.1rem 0.1rem;
+    border: solid rgb(33, 6, 58);
+    grid-row: 6;
+    grid-column: 2;
+}
+#listas > .u6 {
+    border-width: 0.1rem 0.1rem 0.1rem 0.1rem;
+    border: solid rgb(33, 6, 58);
+    grid-row: 6;
+    grid-column: 3;
+}
+#listas > .c6 {
+    border-width: 0.1rem 0.1rem 0.1rem 0,2rem;
+    border: solid rgb(33, 6, 58);
+    grid-row: 6;
+    grid-column: 4;
+}
+#listas > .v7 {
+    
+    border-width: 0.1rem 0,2rem 0.1rem 0.1rem;
+    border: solid rgb(33, 6, 58);
+    grid-row: 7;
+    grid-column: 2;
+}
+#listas > .u7 {
+    border-width: 0.1rem 0.1rem 0.1rem 0.1rem;
+    border: solid rgb(33, 6, 58);
+    grid-row: 7;
+    grid-column: 3;
+}
+#listas > .c7 {
+    border-width: 0.1rem 0.1rem 0.1rem 0,2rem;
+    border: solid rgb(33, 6, 58);
+    grid-row: 7;
+    grid-column: 4;
+}
+#listas > .v8 {
+    
+    border-width: 0.1rem 0,2rem 0.1rem 0.1rem;
+    border: solid rgb(33, 6, 58);
+    grid-row: 8;
+    grid-column: 2;
+}
+#listas > .u8 {
+    border-width: 0.1rem 0.1rem 0.1rem 0.1rem;
+    border: solid rgb(33, 6, 58);
+    grid-row: 8;
+    grid-column: 3;
+}
+#listas > .c8 {
+    border-width: 0.1rem 0.1rem 0.1rem 0,2rem;
+    border: solid rgb(33, 6, 58);
+    font-size: small;
+    grid-row: 8;
+    grid-column: 4;
+}
+#listas > .v9 {
+    
+    border-width: 0.1rem 0,2rem 0.1rem 0,2rem;
+    border: solid rgb(33, 6, 58);
+    grid-row: 9;
+    grid-column: 2;
+}
+#listas > .u9 {
+    border-width: 0.1rem 0.1rem 0.1rem 0.1rem;
+    border: solid rgb(33, 6, 58);
+    grid-row: 9;
+    grid-column: 3;
+}
+#listas > .c9 {
+    border-width: 0.1rem 0.1rem 0,2rem 0,2rem;
+    border: solid rgb(33, 6, 58);
+    grid-row: 9;
+    grid-column: 4;
+}
+#listas{
+    margin-top: 0px;
+    margin-left: auto;
+    display: grid;
+    justify-items: stretch;
+    justify-content: center;
+}
+#ado:target{
+    display: inline;
+}
+#ado{
+    display: none;
+}
+.cerrar{
+    margin-top: 0px;
+    grid-column: 2/5;
+    display: flex;
+    justify-content: center;
+    background-color: var(--c7);
+    border-radius: 0px 0px 2rem 2rem;
+}
+#ado img{
+    width:  11.6rem;
+    height: 11.6rem;
+    margin: 0px 10px;
+    border: 2px solid violet;
+    border-radius: 40%;
+}
+.aa{
+    grid-column: 1;
+    grid-row: 3/8;
+}
+.bb{
+    grid-column: 5;
+    grid-row: 3/8;
+}
+@media (max-width:641px){
+    #ado img{
+        display: none;
+        width: 0px;
+        visibility: hidden;
+    }
+}
+footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    justify-items: stretch;
+}
+svg{
+    width: 50px;
+    height:50px;
+}
+svg:hover{
+    width: 100px;
+    height:100px;
+}
